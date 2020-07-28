@@ -1,5 +1,3 @@
-# comment-component
-
 ## Project setup
 ```
 npm install
