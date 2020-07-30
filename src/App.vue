@@ -2,7 +2,6 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <TodoList :list="list" @add-todo="addTodo" />
-    <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
   </div>
 </template>
 
@@ -13,7 +12,6 @@ import TodoList from './components/TodoList.vue'
 export default {
   name: 'App',
   components: {
-    // HelloWorld,
     TodoList
   },
   data() {
